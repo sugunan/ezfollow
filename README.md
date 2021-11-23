@@ -72,9 +72,9 @@ The priority can be number as "1, 2, 3 . . ." where 1 is most serious. Or it can
 
 ## Expected solution
 
-Build a system to automatically identify and categorize inbound emails into issues or requests.
-Also the system should be able to track and manage inbound, outbound emails as well as associated conversations visually.
-Build functionality to track the time taken for each received email ticket and warn or alert operators of the system of possible service level or threshold breach.
+* Build a system to automatically identify and categorize inbound emails into issues or requests.
+* Also the system should be able to track and manage inbound, outbound emails as well as associated conversations visually.
+* Build functionality to track the time taken for each received email ticket and warn or alert operators of the system of possible service level or threshold breach.
 
 ## Conclution
 
