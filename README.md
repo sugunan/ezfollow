@@ -2,15 +2,6 @@
 
 Automate the process of email based incident tracking.
 
-## Greeting
-
-Hi Every one
-Welcome to challenge 2 of SRE Hack '21.
-
-I'm Sugunan and am here to give you a heads up about this challenge.
-
-Challenge 2 focuses on automate the process of email based incident tracking or ticketing.
-
 ## Problem
 
 A support team working on customer issues & requests to provide solutions.
@@ -75,10 +66,3 @@ The priority can be number as "1, 2, 3 . . ." where 1 is most serious. Or it can
 * Build a system to automatically identify and categorize inbound emails into issues or requests.
 * Also the system should be able to track and manage inbound, outbound emails as well as associated conversations visually.
 * Build functionality to track the time taken for each received email ticket and warn or alert operators of the system of possible service level or threshold breach.
-
-## Conclution
-
-If you have any further queries, <please join the expert team>
-
-
-
