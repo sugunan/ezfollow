@@ -61,8 +61,33 @@ Incident should be given faster resolution than SR as it is blocking or limiting
 Priority or wee can call it as urgency based on how fast the ticket should be handled.
 The priority can be number as "1, 2, 3 . . ." where 1 is most serious. Or it can be "High, Medium, Low"
 
-## Expected solution
+## Goals of the challenge
 
 * Build a system to automatically identify and categorize inbound emails into issues or requests.
 * Also the system should be able to track and manage inbound, outbound emails as well as associated conversations visually.
 * Build functionality to track the time taken for each received email ticket and warn or alert operators of the system of possible service level or threshold breach.
+
+## Details requirement
+
+### Selection of technology
+
+Make sure all tools and frame works selected are open source or custom build by the team. Avoid pirated softwares. Mention all the technologise used while doing presentation. 
+
+### Expected end product
+
+Following are expected feature on the end product. 
+
+* The solution should visualize mail threads as issue / request
+  * This should be auto detected based on machine learning
+  * Also there should be a way to change the category on UI by human
+* Apply priority or urgency to each mail as high, medium or low
+  * High: If the mail talk about any urgency or if large group of people require the soluton
+  * Medium: If the mail doesn't talk about any time line or urgency, But if they still mention about a blocker (actionable item for operation team), then go for medium
+  * Low: All the others mark as low
+  * Also there should be a way to change the priority on UI by human
+* In each email, all the reply and forward should be grouped as conversation
+  * The conversation group can be done by utilizing the parameters in the mail object
+  * If you want to choose other option then clearly mention how it is efficient then the previous point
+* There should be a way to find SLA time lines of each mail thread
+  * Refer the matrix provided above and indicate if any of the SLA breached
+  * Good to have a way to alert about to breach SLA for each mail thread (before 10 min)
