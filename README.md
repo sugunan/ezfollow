@@ -80,6 +80,9 @@ Following are expected feature on the end product.
 * The solution should visualize mail threads as issue / request
   * This should be auto detected based on machine learning
   * Also there should be a way to change the category on UI by human
+  * If the first mail on a thread from operation team then ignore that complete conversation
+    * So maintain a list of mails to mark as operation team
+    * Include "zugunan@gmail.com" also as operation team
 * Apply priority or urgency to each mail as high, medium or low
   * High: If the mail talk about any urgency or if large group of people require the soluton
   * Medium: If the mail doesn't talk about any time line or urgency, But if they still mention about a blocker (actionable item for operation team), then go for medium
@@ -91,3 +94,5 @@ Following are expected feature on the end product.
 * There should be a way to find SLA time lines of each mail thread
   * Refer the matrix provided above and indicate if any of the SLA breached
   * Good to have a way to alert about to breach SLA for each mail thread (before 10 min)
+  * It is good to have working hours on SLA clock as Monday to Friday on week days and 8AM to 5PM as office hours
+
