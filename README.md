@@ -78,7 +78,7 @@ Make sure all tools and frame works selected are open source or custom build by 
 Following are expected feature on the end product. This can be an application which used by tech leads and managers.
 
 * The solution should visualize mail threads as issue / request
-  * This should be auto detected based on machine learning
+  * This should be auto detected based on machine learning / rule engine or any other predefined words detection
   * Also there should be a way to change the category on UI by human
   * If the first mail on a thread from operation team then ignore that complete conversation
     * So maintain a list of mails to mark as operation team
