@@ -67,7 +67,7 @@ The priority can be number as "1, 2, 3 . . ." where 1 is most serious. Or it can
 * Also the system should be able to track and manage inbound, outbound emails as well as associated conversations visually.
 * Build functionality to track the time taken for each received email ticket and warn or alert operators of the system of possible service level or threshold breach.
 
-## Details requirement
+## Detail requirement
 
 ### Selection of technology
 
